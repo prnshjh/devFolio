@@ -176,8 +176,7 @@ const HeroSection = () => {
               variants={itemVariants}
             >
               <motion.div
-                whileHover={{ scale: 1.1 }}
-                transition={{ type: "spring", stiffness: 300 }}
+               
               >
                 <Badge variant="outline" className="text-xs border-green-500/50 text-green-400">
                   <motion.div
@@ -188,13 +187,13 @@ const HeroSection = () => {
                   Available for hire
                 </Badge>
               </motion.div>
-              <motion.div whileHover={{ scale: 1.1 }}>
+              <motion.div>
                 <Badge variant="outline" className="text-xs border-muted-foreground/30">
                   <MapPin size={12} className="mr-1" />
                   Bhopal, India
                 </Badge>
               </motion.div>
-              <motion.div whileHover={{ scale: 1.1 }}>
+              <motion.div>
                 <Badge variant="outline" className="text-xs border-muted-foreground/30">
                   <Calendar size={12} className="mr-1" />
                   Graduating 2026

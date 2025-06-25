@@ -3,6 +3,7 @@ import Navigation from '@/components/Navigation';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Calendar, Target, BookOpen, Code, Coffee } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Now = () => {
   const currentGoals = [
@@ -129,37 +130,20 @@ const Now = () => {
                   Focusing on building production-ready projects and contributing to open source.
                 </p>
                 <div className="text-sm text-accent">
-                  🎯 Seeking Summer 2025 internships
+                  🎯 Seeking Internships and Full time roles
                 </div>
               </CardContent>
             </Card>
           </div>
 
-          {/* Recent Updates */}
-          <Card className="glass animate-scale-in" style={{animationDelay: '0.5s'}}>
-            <CardContent className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-accent">Recent Updates</h3>
-              <div className="space-y-4">
-                {recentUpdates.map((update, index) => (
-                  <div key={index} className="flex gap-4 p-3 glass rounded-lg">
-                    <div className="text-sm text-accent font-medium min-w-fit">
-                      {update.date}
-                    </div>
-                    <div className="text-muted-foreground">
-                      {update.update}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
+
 
           {/* CTA */}
           <div className="text-center mt-12">
            
-            <Button className="glow hover:animate-pulse-glow">
+            <Link to='/contact'> <Button className="glow hover:animate-pulse-glow">
               Get In Touch
-            </Button>
+            </Button> </Link>
           </div>
         </div>
       </div>
