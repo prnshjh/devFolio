@@ -267,7 +267,7 @@ const About = () => {
           alt="Certicate in Marketing Analytics"
           className="rounded-lg mb-4 w-full h-48 object-cover"
         />
-        <h3 className="text-lg font-medium text-white">UX Design Foundation by Adobe</h3>
+        <h3 className="text-lg font-medium text-white"> Marketing Analytics</h3>
         <p className="text-sm text-muted-foreground">NPTEL • IITKGP • 2025</p>
       </CardContent>
     </Card>

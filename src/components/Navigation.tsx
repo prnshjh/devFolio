@@ -29,7 +29,7 @@ const Navigation = () => {
     { icon: SiCodeforces, href: 'https://codeforces.com/profile/prnshjh', label: 'Codeforces', hoverColor: 'hover:text-blue-500' },
     { icon: SiCodechef, href: 'https://www.codechef.com/users/prnshjh', label: 'CodeChef', hoverColor: 'hover:text-orange-400' },
     { icon: FaInstagram, href: 'https://www.instagram.com/priyanshujha.19/', label: 'Instagram', hoverColor: 'hover:text-pink-500' },
-    { icon: FaFileAlt, href: 'https://drive.google.com/file/d/1s0EYI07_AfWDgBWKGXPSOWMpKHzUrWOW/view?usp=drivesdk', label: 'Resume', hoverColor: 'hover:text-blue-500' },
+    { icon: FaFileAlt, href: 'https://drive.google.com/file/d/1Zw_L7bVcqTDvxhnlW4h17m4eaHi2IMGW/view?usp=sharing', label: 'Resume', hoverColor: 'hover:text-blue-500' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
