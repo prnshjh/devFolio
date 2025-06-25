@@ -206,7 +206,7 @@ const About = () => {
     <Card className="glass shadow-lg border border-gray-700">
       <CardContent className="p-4">
         <img
-          src="/src/assets/sdeCertificate.svg"
+          src="/sde.svg"
           alt="Full Stack Software Developer Assessment"
           className="rounded-lg mb-4 w-full h-48 object-cover"
         />
@@ -218,7 +218,7 @@ const About = () => {
     <Card className="glass shadow-lg border border-gray-700">
       <CardContent className="p-4">
         <img
-          src="/src/assets/cloudCertificate.svg"
+          src="/cloud.svg"
           alt="Cloud Computing Certificate (NPTEL)"
           className="rounded-lg mb-4 w-full h-48 object-cover"
         />
@@ -230,7 +230,7 @@ const About = () => {
     <Card className="glass shadow-lg border border-gray-700">
       <CardContent className="p-4">
         <img
-          src="/src/assets/cnCertificate.svg"
+          src="/cn.svg"
           alt="Certicate in Computer Networks"
           className="rounded-lg mb-4 w-full h-48 object-cover"
         />
@@ -241,7 +241,7 @@ const About = () => {
      <Card className="glass shadow-lg border border-gray-700">
       <CardContent className="p-4">
         <img
-          src="/src/assets/nlpCertificate.svg"
+          src="/nlp.svg"
           alt="Certicate in NLP"
           className="rounded-lg mb-4 w-full h-48 object-cover"
         />
@@ -252,7 +252,7 @@ const About = () => {
       <Card className="glass shadow-lg border border-gray-700">
       <CardContent className="p-4">
         <img
-          src="/src/assets/uiCertificate.svg"
+          src='/ui.svg'
           alt="Certicate in UI design"
           className="rounded-lg mb-4 w-full h-48 object-cover"
         />
@@ -263,7 +263,7 @@ const About = () => {
      <Card className="glass shadow-lg border border-gray-700">
       <CardContent className="p-4">
         <img
-          src="/src/assets/maCertificate.svg"
+          src="/ma.svg"
           alt="Certicate in Marketing Analytics"
           className="rounded-lg mb-4 w-full h-48 object-cover"
         />
